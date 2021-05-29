@@ -11,7 +11,6 @@ This is a solution to the [FAQ accordion card challenge on Frontend Mentor](http
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
 - [Author](#author)
 
 ## Overview
@@ -30,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub](https://github.com/brujavsen/faq-accordion)
+- Live Site URL: [GitHub-Pages](https://brujavsen.github.io/faq-accordion/) --- [Netlify](https://faq-accordion-card-main-bruno.netlify.app/)
 
 ## My process
 
@@ -45,29 +44,26 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+This has certainly been an excellent challenge. I tried to use less code in JavaScript and CSS3, as at first I felt I had made it very extensive. I had forgotten the idea of creating utilities in CSS, but what attracted me the most and that for a moment I did not know, was the toggle method, since at first I was unaware of its use, but it was very useful to implement it in this challenge.
 
 To see how you can add code snippets, see below:
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+/* Utilities */
+.text-select > input {
+    color: var(--text-selected);
+    font-weight: var(--bold);
+}
+.arrow > img {
+    transform: rotate(180deg);
 }
 ```
 ```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
+  this.classList.toggle();
 ```
-
-### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
 
 ## Author
 
 - Frontend Mentor - [@brujavsen](https://www.frontendmentor.io/profile/brujavsen)
+
+Thx for read :D
